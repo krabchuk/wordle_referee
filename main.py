@@ -11,6 +11,11 @@ def start(update: Update, context: CallbackContext):
 
 
 def main():
+
+    import os
+    print(os.environ)
+    return
+
     updater = Updater(token=tokens.token)
     updater.dispatcher.add_handler(CommandHandler(command='start', callback=start))
     updater.start_polling()
