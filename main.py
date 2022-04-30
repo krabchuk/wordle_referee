@@ -7,7 +7,7 @@ import tokens
 
 @log_message
 def start(update: Update, context: CallbackContext):
-    update.message.reply_text("Welcome to WordleBot! v0")
+    update.message.reply_text("Welcome to WordleBot! v1")
 
 
 def main():
